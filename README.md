@@ -1,3 +1,3 @@
 # FiRaindrop
 A Large-scale dataset for fisheye image deraining.
-To fill the huge gap in Single Image Deraining (SID) and promote related research on fisheye image processing, we propose a large-scale dataset named FiRaindrop for fisheye image deraining for the first time. 
+To fill the huge gaps in Single Image Deraining (SID) and promote related research on fisheye image processing, we propose a large-scale dataset named FiRaindrop for fisheye image deraining for the first time. FiRaindrop contains ~13.6K rain/rain-free fisheye image pairs and ~28K real rain images, covering more than 500 real-world scenes with different illumination and semantics. All these images are captured with two wide-angle lens cameras with resolutions of $1280 \times 720$.  The cameras are produced and used by an automobile manufacturer and their mode number is 51CAMZI03015.
