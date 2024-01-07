@@ -20,4 +20,4 @@ Wenqian Zhu, Email: zwq_pi@whu.edu.cn
 
 To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (zwq_pi at whu dot edu dot cn). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere. Due to the privacy issue we will not provide the license plates in the future. If you download our dataset, it means you have agreed to our terms of access in the email.
 
-We currently make parts of FiRaindrop dataset available, and the link is 
+We currently make parts of the FiRaindrop dataset available, and the link is 
