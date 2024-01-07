@@ -6,7 +6,8 @@ FiRaindrop contains ~13.6K rain/rain-free fisheye image pairs and ~28K real rain
 ![Fig-02](https://github.com/IntelligentDrivingCoding/FiRaindrop/assets/149981625/b48a41aa-3b60-4d70-92cb-c41f31b465a9)
 
 All these images are captured at hundreds of locations in Wuhan city in China throughout the day and night. To include scenes with moving objects and keep the pixels of image pairs aligned, we post-process each image pair by manually masking the misaligned part in both rain/rain-free images with black rectangles. For example, moving objects in the black circle regions in the last two rows in the Figure below will introduce misalignment for supervised deraining, so we remove those regions by masks (black circles drawn in the images) in both rain and rain-free images. At last,  we randomly select 9,350 image pairs from the entire dataset as the training set and 1,390 and 2,880 images as the eval and test set respectively. Real rainy images mentioned above are used as the real-world evaluation set. Quantitative comparisons are made on the eval and test set and qualitative comparison experiments are performed on the real-world evaluation set.
-![Fig-04](https://github.com/IntelligentDrivingCoding/FiRaindrop/assets/149981625/5aee6b38-9164-4f9b-b900-605440ebc6ac)
+![Fig-04-02](https://github.com/IntelligentDrivingCoding/FiRaindrop/assets/149981625/f5bfe72f-d026-4dd4-9955-8f995652cf90)
+
 
 ## Contactor
 
