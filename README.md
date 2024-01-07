@@ -1,8 +1,8 @@
 # FiRaindrop
-To fill the huge gaps in Single Image Deraining (SID) and promote related research on fisheye image processing, we propose a large-scale dataset named FiRaindrop for fisheye image deraining for the first time. FiRaindrop contains ~13.6K rain/rain-free fisheye image pairs and ~28K real rain images, covering more than 500 real-world scenes with different illumination and semantics. All these images are captured with two wide-angle lens cameras with resolutions of $1280 \times 720$.  The cameras are produced and used by an automobile manufacturer and their mode number is 51CAMZI03015.
+To fill the huge gaps in Single Image Deraining (SID) and promote related research on fisheye image processing, we propose a large-scale dataset named FiRaindrop for fisheye image deraining for the first time. 
 
-## Description of VERI-Wild Dataset
-As shown in the left part of the Figure below, two wide-angle lenses are fixed to the rear of a vehicle using a simple bracket mold, so that we can easily keep the extrinsic of the cameras unchanged and conveniently take photos of different scenes. When taking rain/rain-free image pairs of a scene, we first keep the vehicle stationary and take pictures with a clean camera lens to get clean images. Then, we lightly sprayed the camera lens with a sprinkling to get light rain images. Finally, we sprinkled more water onto the lens to obtain heavy rain images. Each camera can get two image pairs i.e. light-rain/rain-free image pair and heavy-rain/rain-free image pair. Besides, we also take more than $\sim$28K additional images on rainy days without the rain-free (ground truth) images for subjective deraining evaluation. Compared with the real raindrop images, our synthesized raindrop image pairs have similar rain noise representation and distribution with pixel-aligned. 
+## Description of FiRaindrop Dataset
+FiRaindrop contains ~13.6K rain/rain-free fisheye image pairs and ~28K real rain images, covering more than 500 real-world scenes with different illumination and semantics. All these images are captured with two wide-angle lens cameras with resolutions of $1280 \times 720$.  The cameras are produced and used by an automobile manufacturer and their mode number is 51CAMZI03015. As shown in the left part of the Figure below, two wide-angle lenses are fixed to the rear of a vehicle using a simple bracket mold, so that we can easily keep the extrinsic of the cameras unchanged and conveniently take photos of different scenes. When taking rain/rain-free image pairs of a scene, we first keep the vehicle stationary and take pictures with a clean camera lens to get clean images. Then, we lightly sprayed the camera lens with a sprinkling to get light rain images. Finally, we sprinkled more water onto the lens to obtain heavy rain images. Each camera can get two image pairs i.e. light-rain/rain-free image pair and heavy-rain/rain-free image pair. Besides, we also take more than $\sim$28K additional images on rainy days without the rain-free (ground truth) images for subjective deraining evaluation. Compared with the real raindrop images, our synthesized raindrop image pairs have similar rain noise representation and distribution with pixel-aligned. 
 
 ![Fig-02](https://github.com/IntelligentDrivingCoding/FiRaindrop/assets/149981625/b48a41aa-3b60-4d70-92cb-c41f31b465a9)
 
@@ -12,3 +12,12 @@ All these images are captured at hundreds of locations in Wuhan city in China th
 ![Fig-04](https://github.com/IntelligentDrivingCoding/FiRaindrop/assets/149981625/5aee6b38-9164-4f9b-b900-605440ebc6ac)
 
 
+
+
+## Contactor
+
+Wenqian Zhu, Email: zwq_pi@whu.edu.cn
+
+To encourage related research, we will provide the dataset according to your request. Please email your full name and affiliation to the contact person (zwq_pi at whu dot edu dot cn). We ask for your information only to make sure the dataset is used for non-commercial purposes. We will not give it to any third party or publish it publicly anywhere. Due to the privacy issue we will not provide the license plates in the future. If you download our dataset, it means you have agreed to our terms of access in the email.
+
+We currently make parts of FiRaindrop dataset available, and the link is 
